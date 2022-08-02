@@ -1,0 +1,36 @@
+{
+    "name": "loantap/fpdf",
+    "license": "GPL-3.0-or-later",
+    "type": "awesome-handler",
+    "description": "FPDF is a PHP class which allows to generate PDF files with pure PHP ",
+	"keywords": ["WordPress", "Low Code"," Awesome Enterprise","Shortcode","fpdf","PHP PDF Creation"],
+	"homepage": "https://getawesomestudio.com/",
+	"authors": [
+		{
+            "name": "Loantap",
+            "homepage": "https://loantap.in/"
+        }
+       
+    ],
+	 "support": {
+        "docs": "https://awxdocs.com/tutorials/"
+    },
+    "require": {
+        "php": ">=7.0",
+        "composer/installers": "~1.0",
+        "oomphinc/composer-installers-extender": "^2.0",
+        "setasign/fpdf": "^1.8"
+    },
+	 "extra": { 
+		"installer-name": "FPDF"
+    },
+    "config": {
+		"process-timeout": 600,
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true,
+            "oomphinc/composer-installers-extender": true
+        }
+    },
+	"prefer-stable": true
+}
