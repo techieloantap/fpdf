@@ -30,7 +30,7 @@ function files_merge($atts,$content=null,$shortcode=null){
 		return $error;
 	}
 
-	$pdf = new \Fpdi\Fpdi();
+	$pdf = new Fpdi\Fpdi();
 
 	foreach ($files as $file) {
 		$path_info = pathinfo($file);
