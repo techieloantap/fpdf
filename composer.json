@@ -22,7 +22,7 @@
         "setasign/fpdf": "^1.8"
     },
 	 "extra": { 
-		"installer-name": "FPDF"
+		"installer-name": "fpdf"
     },
     "config": {
 		"process-timeout": 600,
